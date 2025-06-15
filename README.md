@@ -190,22 +190,21 @@ We used Isolation Forest to identify:
 ## 📸 Project Screenshots
 
 ### 🖥️ Fake Login Page
-![Fake Login](SCREENSHOTS/01_fake_login.png)
+![Fake Login]
 
 ### 🛡️ Admin Dashboard
-![Admin Dashboard](SCREENSHOTS/02_admin_dashboard.png)
-
+![Admin Dashboard]
 ### 📊 Suricata Logs
-![Suricata Logs](SCREENSHOTS/03_suricata_logs.png)
+![Suricata Logs]
 
 ### 🤖 Isolation Forest Detection
-![Isolation Forest](SCREENSHOTS/04_isolation_forest.png)
+![Isolation Forest]
 
 ### 🗃️ Database Log Entries
-![Database Logs](SCREENSHOTS/05_db_logs.png)
+![Database Logs]
 
 ### 🔴 Live Attack Captured
-![Live Attack](SCREENSHOTS/06_live_attack.png)
+![Live Attack]
 
 
 🚧 Future Enhancements
