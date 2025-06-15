@@ -188,11 +188,12 @@ We used Isolation Forest to identify:
 🧪 The ML detection is experimental and will improve with more data.
 
 🖼️ Screenshots
-Fake Website View	Fake Signup/signin For Genralpeople/Attackers
 
-Suricata Log Alerts	Original Website Covered By Fake Banking Page
+Fake Website View	    Fake Signup/signin For Genralpeople/Attackers
 
-Login Attempts in MySQL	Live Attack Simulation View
+Suricata Log Alerts	    Original Website Covered By Fake Banking Page
+
+Login Attempts in MySQL	     Live Attack Simulation View
 
 
 🚧 Future Enhancements
