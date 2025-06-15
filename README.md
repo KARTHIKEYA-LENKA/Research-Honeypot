@@ -76,9 +76,10 @@ Suricata IDS
 Python log reader script
 
 🗂️ Project Structure
-bash
-Copy
-Edit
+
+
+
+
 honeypot_project/
 ├── apache-site/           # index.html, app.js, style.css
 ├── nextjs-app/            # Frontend (React + Tailwind)
