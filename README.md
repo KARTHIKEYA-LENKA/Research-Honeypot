@@ -43,8 +43,8 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/honeypot_project.git
-cd honeypot_project
+git clone https://github.com/KARTHIKEYA-LENKA/Research-Honeypot.git
+cd Research-Honeypot
 Set up Python Environment
 
 bash
