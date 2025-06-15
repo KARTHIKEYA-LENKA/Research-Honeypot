@@ -43,37 +43,37 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/KARTHIKEYA-LENKA/Research-Honeypot.git
-cd Research-Honeypot
-Set up Python Environment
+        git clone https://github.com/KARTHIKEYA-LENKA/Research-Honeypot.git
+        cd Research-Honeypot
+        Set up Python Environment
 
 bash
 Copy
 Edit
-cd scripts
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+        cd scripts
+        python3 -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt
 Set up MySQL Database
 
 sql
 Copy
 Edit
-CREATE DATABASE suricata_logs;
-USE suricata_logs;
-CREATE TABLE logs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    timestamp DATETIME,
-    event_type VARCHAR(255),
-    stats JSON
-);
-Start Required Services
+        CREATE DATABASE suricata_logs;
+        USE suricata_logs;
+        CREATE TABLE logs (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            timestamp DATETIME,
+            event_type VARCHAR(255),
+            stats JSON
+        );
+    Start Required Services
 
-Apache or Next.js frontend
+    Apache or Next.js frontend
 
-Suricata IDS
+    Suricata IDS
 
-Python log reader script
+    Python log reader script
 
 🗂️ Project Structure
 
