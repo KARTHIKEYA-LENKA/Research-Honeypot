@@ -80,16 +80,16 @@ Python log reader script
 
 
 
-honeypot_project/
-├── apache-site/           # index.html, app.js, style.css
-├── nextjs-app/            # Frontend (React + Tailwind)
-├── scripts/               # suricata_log_reader.py, AI models
-├── screenshots/           # All result and UI screenshots
-├── eve.json               # Suricata full logs
-├── fast.log               # Suricata fast alerts
-├── stats.log              # Custom log outputs
-├── old_ip_references.txt  # EC2 IP records
-└── README.md              # Project documentation
+     honeypot_project/
+     ├── apache-site/            # index.html, app.js, style.css
+     ├── nextjs-app/             # Frontend (React + Tailwind)
+     ├── scripts/                # suricata_log_reader.py, AI models
+     ├── screenshots/            # All result and UI screenshots
+     ├── eve.json                # Suricata full logs
+     ├── fast.log                # Suricata fast alerts
+     ├── stats.log               # Custom log outputs
+     ├── old_ip_references.txt   # EC2 IP records
+     └── README.md               # Project documentation
 ⚙️ How It Works
 This honeypot simulates a fake banking portal and tracks malicious user behavior for research.
 
