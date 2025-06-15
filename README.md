@@ -69,11 +69,11 @@ Edit
         );
     Start Required Services
 
-    Apache or Next.js frontend
+ Apache or Next.js frontend
 
-    Suricata IDS
+Suricata IDS
 
-    Python log reader script
+Python log reader script
 
 🗂️ Project Structure
 
