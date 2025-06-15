@@ -187,13 +187,25 @@ We used Isolation Forest to identify:
 
 🧪 The ML detection is experimental and will improve with more data.
 
-🖼️ Screenshots
+## 📸 Project Screenshots
 
-Fake Website View	    Fake Signup/signin For Genralpeople/Attackers
+### 🖥️ Fake Login Page
+![Fake Login](SCREENSHOTS/01_fake_login.png)
 
-Suricata Log Alerts	    Original Website Covered By Fake Banking Page
+### 🛡️ Admin Dashboard
+![Admin Dashboard](SCREENSHOTS/02_admin_dashboard.png)
 
-Login Attempts in MySQL	     Live Attack Simulation View
+### 📊 Suricata Logs
+![Suricata Logs](SCREENSHOTS/03_suricata_logs.png)
+
+### 🤖 Isolation Forest Detection
+![Isolation Forest](SCREENSHOTS/04_isolation_forest.png)
+
+### 🗃️ Database Log Entries
+![Database Logs](SCREENSHOTS/05_db_logs.png)
+
+### 🔴 Live Attack Captured
+![Live Attack](SCREENSHOTS/06_live_attack.png)
 
 
 🚧 Future Enhancements
