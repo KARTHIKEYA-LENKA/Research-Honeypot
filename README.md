@@ -227,7 +227,7 @@ Name: Lenka Karthikeya
 🔗 **Links**
 
 - 🔹 LinkedIn: [linkedin.com/in/lenka-karthikeya](https://www.linkedin.com/in/lenka-karthikeya)
-- 🔹 Trailhead: [salesforce.com/trailblazer/eabsk3msp2zdtqju0h](https://www.salesforce.com/trailblazer/karthikeya-lenka)
+- 🔹 Trailhead: [https://www.salesforce.com/trailblazer/lenka-karthikeya](https://www.salesforce.com/trailblazer/lenka-karthikeya)
 
 
 
